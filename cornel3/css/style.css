@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Bloodcrow';
+  src: url('../fonts/bloodcrow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BloodcrowS';
+  src: url('../fonts/bloodcrowShadow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sf';
+  src: url('../fonts/sf-pro-text-semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: 'BloodcrowS', sans-serif;
+  letter-spacing: 3px;
+}
+
+/* Reset the margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the default font family and color */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+/* Style the header */
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style the navigation links */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #8B0000;
+}
+
+/* Style the main content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #8B0000;
+}
+
+main h2 {
+  font-family: 'Bloodcrow', sans-serif;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Reset the margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background color */
+body {
+  background-color: #8B0000;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+/* Style the header */
+header {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style the navigation links */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #FFD700;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px)
+}
+
+/* Style the main content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+main h2 {
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+  background-color: rgba(255, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+p {
+  font-family: 'Sf', sans-serif;
+}
+/* For webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eb2525;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: orange; /* Change the color to orange */
+  border-radius: 5px; /* Make it rounder by increasing the border-radius */
+}
+
+/* For Firefox */
+* {
+  scrollbar-color: orange #f1f1f1;
+  scrollbar-width: thin; /* Set the width of the scrollbar thumb in Firefox */
+}
