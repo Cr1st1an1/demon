@@ -1,4 +1,3 @@
-# demon
 # Demon Slayer Website 🌙⚔️
 
 Welcome to the Demon Slayer Website, your ultimate source for all things related to the hit anime and manga series, Demon Slayer: Kimetsu no Yaiba! This website aims to provide fans with a comprehensive platform to explore and engage with the captivating world of Demon Slayer.
