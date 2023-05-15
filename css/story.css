@@ -83,7 +83,7 @@ main h2 {
 nav {
   background-color: rgba(255, 0, 0, 0.8);
   padding: 10px;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 p {
   font-family: 'Sf', sans-serif;

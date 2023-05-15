@@ -33,14 +33,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
   color: white;
 }
-/* Style the header */
-header {
-  background-color: rgba(255, 255, 255, 0.9);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
 
 /* Style the navigation links */
 nav a {
@@ -55,31 +47,6 @@ nav a:hover {
   color: #8B0000;
 }
 
-/* Style the main content */
-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #8B0000;
-}
-
-main h2 {
-  font-family: 'Bloodcrow', sans-serif;
-  font-size: 32px;
-  margin-top: 50px;
-}
-
-main p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 30px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
 
 /* Reset the margin and padding */
 * {
@@ -123,9 +90,11 @@ main {
   max-width: 900px;
   margin: 0 auto;
   padding: 0px;
+  background-color: #8B0000;
 }
 
 main h2 {
+  font-family: 'Bloodcrow', sans-serif;
   font-size: 32px;
   margin-top: 50px;
 }
